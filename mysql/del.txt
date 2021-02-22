@@ -1,0 +1,13 @@
+f> any(10,20,30)
+f > 10 or f>20 or f>30
+everything greater than 10
+
+f> ALL(10,20,30)
+f >30
+everything greater than 30
+
+f < any(10,20,30)
+everything less than 30
+
+f<  ALL(10,20,30)
+everything less than 10
