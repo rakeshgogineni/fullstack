@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/2274102/difference-between-using-throwable-and-exception-in-a-try-catch#:~:text=Exception%20is%20programmatically%20recoverable.,to%20be%20caught%20as%20well.&text=Throwable%20is%20super%20class%20of,cause%20doesn't%20get%20lost.
