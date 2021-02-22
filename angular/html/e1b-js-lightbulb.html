@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Java Script Example</title>
+    <style>
+       p {
+         background-color: aquamarine;
+       }
+    </style>
+    <script>
+      // alert("good, welcome to web development.....");
+      // console.log("good, welcome to web development.....");
+      function toggleLight() {
+        console.log("toggling light");
+        var imageVar = document.getElementById("bulb");
+        if (imageVar.src.match("bulbon")) {
+          imageVar.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        } else {
+          imageVar.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+      }
+      function toggleLight1() {
+        console.log("toggling light");
+        var imageVar = document.getElementById("bulb1");
+        if (imageVar.src.match("bulbon")) {
+          imageVar.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        } else {
+          imageVar.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p>
+      <img
+        id="bulb"
+        onclick="toggleLight()"
+        src="https://www.w3schools.com/js/pic_bulboff.gif"
+      />
+    </p>
+    <p>
+      <img
+        id="bulb1"
+        onclick="toggleLight1()"
+        src="https://www.w3schools.com/js/pic_bulboff.gif"
+      />
+    </p>
+  </body>
+</html>
+
+<!-- https://www.w3schools.com/js/pic_bulboff.gif
+is it live?.............
+https://www.w3schools.com/js/pic_bulbon.gif -->
